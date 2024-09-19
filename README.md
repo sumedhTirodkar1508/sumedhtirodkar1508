@@ -6,6 +6,7 @@
 -->
 - 👨‍🎓 Pursuing Masters of Science in Information Systems
 - 🐢 Master's student at the University of Maryland
+- 🧑‍💻 Ex. Software Development Engineer at Reliance Jio
 - 📫 How to reach me: sumedhtirodkar15@gmail.com
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: Can repair anything! 🪛🧑‍🔧🔧
