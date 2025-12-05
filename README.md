@@ -1,4 +1,4 @@
-# Hi there, 👋 I'm Sumedh 👨‍🏭
+# Hi there, 👋 I'm Sumedh 🧑🏻‍💻
 
 <!--
 **sumedhTirodkar1508/sumedhtirodkar1508** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -20,7 +20,36 @@
 - Tools and Framework: Docker, Kubernetes, Git, React, Spring MVC, Spring Boot, Tableau, Jupyter, Linux, Google Colab, Azure DevOps, Eclipse, Postman, Apache JMeter, Apache Spark, jQuery, Bootstrap
 - Office Tools: Microsoft Office Suite (Excel, Outlook, PowerPoint, Word)
 
+## 📂 Featured Portfolio Projects
+
+#### 1. [QR Code Emergency Response System ScanAndSave](https://github.com/sumedhTirodkar1508/scanAndSave)
+**Tech Stack:** Next.js, TypeScript, React, PostgreSQL (Prisma ORM), Cloud Storage, RBAC
+* **Problem:** Critical medical data is often inaccessible to first responders during emergencies.
+* **Solution:** Developed a secure, cloud-deployed platform allowing instant data access via QR scans. Engineered a robust Role-Based Access Control (RBAC) system to ensure data privacy and compliance.
+* **Key Achievement:** Architected a mission-critical, cloud-native medical response platform ensuring instant, secure data availability during crises, while implementing an event-driven notification architecture that eliminated 100% of manual administrative intervention.
+
+#### 2. [NeuroPanel: AI Transcription Backend](https://github.com/sumedhTirodkar1508/neuroPanel)
+**Tech Stack:** Next.js, React, Node.js, Gemini AI, JWT, Supabase (Edge Functions), PostgreSQL (Prisma ORM)
+* **What it does:** A full-stack Chrome extension backend delivering real-time multilingual transcription for browser audio (Meetings, YouTube, etc.).
+* **Highlights:** Integrated Generative AI with fault-tolerant retry logic and fallback mechanisms to ensure high availability during API outages.
+* **Security:** Secured API endpoints using NextAuth sessions and JWT verification to prevent unauthorized usage.
+
+#### 3. [Real-Time Karaoke Event Music Manager (RecessionsDC Karaoke)](https://github.com/sumedhTirodkar1508/recessionskaraoke)
+**Tech Stack:** Next.js, React, Node.js, TypeScript, Real-Time Database, Supabase, PostgreSQL (Prisma ORM)
+* **Problem:** High-volume event venues struggle with manual request tracking and queue fairness.
+* **Solution:** Built a digital request ecosystem that allows users to submit requests via QR codes, instantly syncing with a DJ/Admin dashboard.
+* **Key Achievement:** Architected a high-performance queue system integrating the Spotify API and Prisma, utilizing optimistic UI and debounced search to ensure data consistency and zero-latency interactions during concurrent submissions.
+
+#### 4. [SQRATCH: Physical-to-Digital Bridge](https://github.com/sumedhTirodkar1508/sqratch)
+**Tech Stack:** Next.js, React, Node.js, Supabase (Edge Functions), PostgreSQL (Prisma ORM), Dynamic QR Generation, Authentication
+* **Solution:** A gateway application connecting physical products to private digital communities using "scratchable" QR codes.
+* **Highlights:** Solved the "double-spend" problem for physical goods by ensuring each QR code is unique and can only be claimed once to grant digital access.
+* **Integration:** Demonstrates the ability to link physical inventory tracking with digital user authentication and community access controls.
+
 ## 🌐 Let's Connect!
 Feel free to explore my repositories and connect with me:
 #### Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/sumedh-tirodkar) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sumedhtirodkar15@gmail.com) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/sumedhtirodkar)
+
+## 📈 GitHub Stats
+![Sumedh's GitHub stats](https://github-readme-stats.vercel.app/api?username=sumedhTirodkar1508&show_icons=true&theme=minimal)
