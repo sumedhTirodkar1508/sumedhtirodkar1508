@@ -27,7 +27,7 @@
 * **Live Project Link:** https://scan-and-save-nine.vercel.app/
 * **Problem:** Critical medical data is often inaccessible to first responders during emergencies.
 * **Solution:** Developed a secure, cloud-deployed platform allowing instant data access via QR scans. Engineered a robust Role-Based Access Control (RBAC) system to ensure data privacy and compliance.
-* **Key Achievement:** Architected a mission-critical, cloud-native medical response platform ensuring instant, secure data availability during crises, while implementing an event-driven notification architecture that eliminated 100% of manual administrative intervention.
+* **Key Achievement:** Architected a mission-critical, cloud-native medical response platform ensuring instant, secure data availability during crises, while implementing an event-driven notification architecture that eliminated 100% of manual administrative intervention.<br>
   <img src="./assets/scanandsave.png" width="300">
 
 #### 2. [NeuroPanel: AI Transcription Backend](https://github.com/sumedhTirodkar1508/neuroPanel)
@@ -43,7 +43,7 @@
 **Tech Stack:** Next.js, React, Node.js, TypeScript, Real-Time Database, Supabase, PostgreSQL (Prisma ORM)
 * **Problem:** High-volume event venues struggle with manual request tracking and queue fairness.
 * **Solution:** Built a digital request ecosystem that allows users to submit requests via QR codes, instantly syncing with a DJ/Admin dashboard.
-* **Key Achievement:** Architected a high-performance queue system integrating the Spotify API and Prisma, utilizing optimistic UI and debounced search to ensure data consistency and zero-latency interactions during concurrent submissions.
+* **Key Achievement:** Architected a high-performance queue system integrating the Spotify API and Prisma, utilizing optimistic UI and debounced search to ensure data consistency and zero-latency interactions during concurrent submissions.<br>
   <img src="./assets/karaoke_requestsong.png" height="240" style="object-fit:cover;"> &nbsp;&nbsp;&nbsp;
   <img src="./assets/karaoke_controlcenter.png" height="240" style="object-fit:cover;">
 
@@ -51,7 +51,7 @@
 **Tech Stack:** Next.js, React, Node.js, Supabase (Edge Functions), PostgreSQL (Prisma ORM), Dynamic QR Generation, Authentication
 * **Solution:** A gateway application connecting physical products to private digital communities using "scratchable" QR codes.
 * **Highlights:** Solved the "double-spend" problem for physical goods by ensuring each QR code is unique and can only be claimed once to grant digital access.
-* **Integration:** Demonstrates the ability to link physical inventory tracking with digital user authentication and community access controls.
+* **Integration:** Demonstrates the ability to link physical inventory tracking with digital user authentication and community access controls.<br>
   <img src="./assets/sqratch_login.png" height="240" style="object-fit:cover;"> &nbsp;&nbsp;&nbsp;
   <img src="./assets/sqratch_home.gif" height="240" style="object-fit:cover;">
 
