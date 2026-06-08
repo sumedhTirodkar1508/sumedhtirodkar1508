@@ -17,6 +17,7 @@
 ## 🧑🏻‍💻 My Skills
 - Programming Languages: Java, HTML, CSS, JavaScript, Python, PHP, R
 - Databases: MySQL, MongoDB, Neo4j
+- Data & QA: Snowflake (SQL, COPY INTO, Streams & Tasks), data-quality testing, source-to-target reconciliation, root-cause analysis (RCA), defect validation, test design & execution, ETL, operational monitoring
 - Tools and Framework: Docker, Kubernetes, Git, React, Spring MVC, Spring Boot, Tableau, Jupyter, Linux, Google Colab, Azure DevOps, Eclipse, Postman, Apache JMeter, Apache Spark, jQuery, Bootstrap
 - Office Tools: Microsoft Office Suite (Excel, Outlook, PowerPoint, Word)
 
