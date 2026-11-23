@@ -1,62 +1,64 @@
-# Hi there, 👋 I'm Sumedh 🧑🏻‍💻
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/bento-dark.svg" />
+  <img src="./assets/bento-light.svg" alt="Sumedh Tirodkar: Full Stack Software Engineer | Software Development Engineer" width="100%" />
+</picture>
 
-<!--
-**sumedhTirodkar1508/sumedhtirodkar1508** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+## ✦ About
 
-## 💫 About Me:
-- 👨‍🎓 MS in Information Systems | University of Maryland 🐢
-- 🧑‍💻 Ex. Software Development Engineer at Reliance Jio
-- 📫 How to reach me: sumedhtirodkar15@gmail.com
-- 😄 Pronouns: he/him
-- ⚡ Fun fact: I can repair just about anything! 🪛🧑‍🔧🔧
+I build full-stack applications—architecting React and Next.js frontends, designing PostgreSQL schemas with row-level security, and integrating OAuth flows that protect over **1 million** records. At the University of Maryland I reduced page load latency by **35%** and query execution time by **65%** through schema redesign and indexing. Before that, I engineered backend services at Reliance Jio that automated tax compliance for **20,000+** users, cutting submission time by **70 minutes** per person.
 
-# 💻 Tech Stack:
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+## ✦ Selected work
 
-## 🧑🏻‍💻 My Skills
-- Programming Languages: Java, HTML, CSS, JavaScript, Python, PHP, R
-- Databases: MySQL, MongoDB, Neo4j
-- Data & QA: Snowflake (SQL, COPY INTO, Streams & Tasks), data-quality testing, source-to-target reconciliation, root-cause analysis (RCA), defect validation, test design & execution, ETL, operational monitoring
-- Tools and Framework: Docker, Kubernetes, Git, React, Spring MVC, Spring Boot, Tableau, Jupyter, Linux, Google Colab, Azure DevOps, Eclipse, Postman, Apache JMeter, Apache Spark, jQuery, Bootstrap
-- Office Tools: Microsoft Office Suite (Excel, Outlook, PowerPoint, Word)
+| Project | What it does | Impact | Stack |
+|---------|-------------|--------|-------|
+| **onespec** | Compiles one JSON Schema into TypeScript types, client and server validators, and PostgreSQL check constraints | Property-based tests prove all three layers agree | TypeScript, JSON Schema, Ajv, PostgreSQL, Vitest, fast-check |
+| **sessionprops** | Expresses session security as invariants and checks them with stateful property-based testing | Generates and shrinks adversarial login, elevate, rotate, and logout sequences | TypeScript, Express, Redis, Vitest, fast-check |
+| **schemadrift** | GraphQL breaking-change gate that downgrades severity using real field-usage telemetry | GitHub Action posts annotated PR comments naming clients that still call removed fields | TypeScript, GraphQL.js, Node.js CLI, Vitest, GitHub Actions |
+| **gatekeep** | BeyondCorp-style identity-aware reverse proxy with OIDC and PKCE | Device posture assertions, CEL policies, encrypted sessions, and hash-chained audit log | Go, OpenID Connect, PKCE, JWKS, AES-256-GCM, EdDSA ES256, CEL |
+| **Project Pluto** | Real-time data streaming application capturing live market data from browser sessions | Delivers streaming updates to Next.js frontend with reliable browser automation and failure recovery | TypeScript, Node.js, Playwright, ConnectRPC, Protobuf, Next.js |
+| **NeuroPanel** | Chrome extension and backend platform for multilingual audio capture and transcription | Achieved over **95%** transcription reliability, reducing manual note-taking | React, Vite, TypeScript, Next.js, PostgreSQL, Prisma, JWT, Gemini AI, NextAuth |
 
-## 📂 Featured Portfolio Projects
+<details>
+<summary>onespec, in depth</summary>
 
-#### 1. [QR Code Emergency Response System ScanAndSave](https://github.com/sumedhTirodkar1508/scanAndSave)
-**Tech Stack:** Next.js, TypeScript, React, PostgreSQL (Prisma ORM), Cloud Storage, RBAC
-* **Live Project Link:** https://scan-and-save-nine.vercel.app/
-* **Problem:** Critical medical data is often inaccessible to first responders during emergencies.
-* **Solution:** Developed a secure, cloud-deployed platform allowing instant data access via QR scans. Engineered a robust Role-Based Access Control (RBAC) system to ensure data privacy and compliance.
-* **Key Achievement:** Architected a mission-critical, cloud-native medical response platform ensuring instant, secure data availability during crises, while implementing an event-driven notification architecture that eliminated 100% of manual administrative intervention.<br>
-  <img src="./assets/scanandsave.png" width="300">
+</details>
 
-#### 2. [NeuroPanel: AI Transcription Backend](https://github.com/sumedhTirodkar1508/neuroPanel)
-**Tech Stack:** Next.js, React, Node.js, Gemini AI, JWT, Supabase (Edge Functions), PostgreSQL (Prisma ORM)
-* **For Chrome Extension Refer Screenshot below.** **Backend Portal Link:** https://neuro-panel.vercel.app/login
-* **What it does:** A full-stack Chrome extension backend delivering real-time multilingual transcription for browser audio (Meetings, YouTube, etc.).
-* **Highlights:** Integrated Generative AI with fault-tolerant retry logic and fallback mechanisms to ensure high availability during API outages.
-* **Security:** Secured API endpoints using NextAuth sessions and JWT verification to prevent unauthorized usage.<br>
-  <img src="./assets/neuropanel_listening.png" height="400"> &nbsp;&nbsp;&nbsp;
-  <img src="./assets/neuropanel_home.png" height="400">
+<details>
+<summary>sessionprops, in depth</summary>
 
-#### 3. [Real-Time Karaoke Event Music Manager (RecessionsDC Karaoke)](https://github.com/sumedhTirodkar1508/recessionskaraoke)
-**Tech Stack:** Next.js, React, Node.js, TypeScript, Real-Time Database, Supabase, PostgreSQL (Prisma ORM)
-* **Problem:** High-volume event venues struggle with manual request tracking and queue fairness.
-* **Solution:** Built a digital request ecosystem that allows users to submit requests via QR codes, instantly syncing with a DJ/Admin dashboard.
-* **Key Achievement:** Architected a high-performance queue system integrating the Spotify API and Prisma, utilizing optimistic UI and debounced search to ensure data consistency and zero-latency interactions during concurrent submissions.<br>
-  <img src="./assets/karaoke_requestsong.png" height="240" style="object-fit:cover;"> &nbsp;&nbsp;&nbsp;
-  <img src="./assets/karaoke_controlcenter.png" height="240" style="object-fit:cover;">
+</details>
 
-#### 4. [SQRATCH: Physical-to-Digital Bridge](https://github.com/sumedhTirodkar1508/sqratch)
-**Tech Stack:** Next.js, React, Node.js, Supabase (Edge Functions), PostgreSQL (Prisma ORM), Dynamic QR Generation, Authentication
-* **Solution:** A gateway application connecting physical products to private digital communities using "scratchable" QR codes.
-* **Highlights:** Solved the "double-spend" problem for physical goods by ensuring each QR code is unique and can only be claimed once to grant digital access.
-* **Integration:** Demonstrates the ability to link physical inventory tracking with digital user authentication and community access controls.<br>
-  <img src="./assets/sqratch_login.png" height="240" style="object-fit:cover;"> &nbsp;&nbsp;&nbsp;
-  <img src="./assets/sqratch_home.gif" height="240" style="object-fit:cover;">
+## ✦ Experience
 
-## 🌐 Let's Connect!
-Feel free to explore my repositories and connect with me:
-#### Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumedh-tirodkar) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sumedhtirodkar15@gmail.com) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/sumedhtirodkar)
+| Period | Role | Company | Highlights |
+|--------|------|---------|------------|
+| *Aug 2024 – Present* | Research Assistant - Software Developer | University of Maryland, USA | Reduced page load latency by **35%** and query time by **65%** through schema redesign, indexing, and API optimization; secured **1M+** records with PostgreSQL RLS; cut deployment time from **30 minutes** to **4 minutes** with GitHub Actions. |
+| *Aug 2023 – Dec 2024* | Teaching Assistant - Graduate Programming | University of Maryland, USA | Conducted labs and debugging sessions for **150+** students; automated evaluation of **200+** weekly submissions with PyTest, JUnit, and Docker; earned **4.9/5** instructor rating. |
+| *Aug 2019 – Jul 2023* | Software Development Engineer | Reliance Jio Platforms Limited | Engineered backend services for **20,000+** users, reducing tax submission time by **70 minutes** per user; coordinated API gateway onboarding across **5+** teams; reduced MTTR by **30%** through log analysis and monitoring. |
+
+## ✦ Credentials
+
+### Education
+- **Master of Science**, Information Technology – *University of Maryland, College Park* (*Aug 2023 – Dec 2024*)
+- **Bachelor of Engineering**, Electronics and Telecommunication – *University of Mumbai* (*Jul 2015 – Jun 2019*)
+
+## ✦ Toolbox
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,py,js,ts,go,html,bash,react,nextjs,spring,nodejs,express,django,fastapi,postgres,mysql&theme=dark&perline=8" alt="java, py, js, ts, go, html, bash, react, nextjs, spring, nodejs, express, django, fastapi, postgres, mysql" />
+</p>
+
+<p align="center"><a href="mailto:sumedhtirodkar15@gmail.com"><b>Email</b></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/sumedh-tirodkar/"><b>LinkedIn</b></a> &nbsp;·&nbsp; <a href="https://github.com/sumedhTirodkar1508"><b>GitHub</b></a></p>
+
+## ✦ Projects
+
+- [onespec](https://github.com/sumedhTirodkar1508/onespec) — One JSON Schema compiles into TypeScript types, client and server validators and PostgreSQL check constraints, with property-based tests proving all three…
+- [sessionprops](https://github.com/sumedhTirodkar1508/sessionprops) — Session security expressed as invariants and checked with stateful property-based testing that generates and shrinks adversarial login, elevate, rotate and…
+- [schemadrift](https://github.com/sumedhTirodkar1508/schemadrift) — A GraphQL breaking-change gate that downgrades severity using real field-usage telemetry, naming the client that still calls a removed field, with a GitHub…
+- [originbound](https://github.com/sumedhTirodkar1508/originbound) — A sealed lab where one relay attack succeeds against TOTP and fails against WebAuthn, with the clientDataJSON origin field shown as the cause.
+- [tokenforge](https://github.com/sumedhTirodkar1508/tokenforge) — One design-token source of truth, forged into Tailwind, CSS variables (light/dark/high-contrast), and typed TS — with a WCAG contrast gate that fails CI before…
+- [gatekeep](https://github.com/sumedhTirodkar1508/gatekeep) — A BeyondCorp-style identity-aware reverse proxy in Go with OIDC and PKCE, device posture assertions, CEL policies, encrypted sessions and a hash-chained audit…
+- [contextlens](https://github.com/sumedhTirodkar1508/contextlens) — Engineers waste significant time re-deriving why code is written a certain way — the tribal knowledge lives in PR comments and commit messages disconnected…
+- [stridediff](https://github.com/sumedhTirodkar1508/stridediff) — Architecture-as-code tool that computes a STRIDE threat delta on every pull request and fails CI when a new trust-boundary crossing has no recorded mitigation.
+- [dmarcwatch](https://github.com/sumedhTirodkar1508/dmarcwatch) — Email deliverability monitoring that parses DMARC aggregate XML reports to separate mail that never arrived from mail that arrived and was ignored, and flags…
+- [adrlint](https://github.com/sumedhTirodkar1508/adrlint) — A decision-record linter that builds a graph of architecture decisions and flags unresolved contradictions, expired reviews and orphaned supersedes chains.
